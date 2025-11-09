@@ -6,8 +6,8 @@ homepage:
 - images / logo
 
 subpage: 
-- map
-- user reports (link to a google form if a scooter is broken)
+- map ()
+- user reports (link to a google form if a scooter is broken) ()
 - statistics (number of scooters being used / available)
 - time estimates for nearest scooters (if not available now, when is the next time one is available)
 - images / logo
