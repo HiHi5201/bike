@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Escooter Book</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="stylecss.css">
-    </head>
-    <body>
-        <h1>Escooter Book</h1>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Escooter Book</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylecss.css">
+</head>
+<body>
 
-        <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="scooters.html">Scooters</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="report.html">Report Broken Scooter</a></li>
-    </ul>
-</nav>
+    <h1>Escooter Book</h1>
 
-        <img src="data:image/png;base64,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" alt="Scooter Logo">
+    <!-- Logo -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAACUCAMAAAAeaLPCAAAAaVBMVEX///8AAADZ2dmRkZH8/PwEBATy8vK7u7vp6en39/dJSUlhYWHt7e3IyMjW1tZYWFjf399ra2uhoaEkJCQ6Ojqpqak1NTUPDw9CQkIeHh6EhIQVFRVzc3POzs4pKSmwsLBQUFB7e3uZmZnvRi/iAAAFS0lEQVR4nO2cW5eyOgyGW6i0nBHlICOg/v8fuZMWx/Fb+yB1sCt79bnSiymvIU3TNB3GPB6Px+PxeDwej8fj8Xg8/4lwLcAKUJ1VGVHxLLqll7SOXMuwQYgrR0KSps/5nxwL15peZs93nO92P9UfXGt6EcEufxoefodrVS8iWIhq+ZPlB9eqXqYy2o+NvJMTijwSjX2SrmXYgeEmERAzXQuxQNSkvPyZ+AziiToNi3oQX7lWYUmG89W1CFsK0D65FmFLDUH+6lqEHYLhfJ1dy7BDsBOIH13LsAWTA+VahBWCVSC+z1zrsGTG9TV2rcIS3AQ2FNMaBPciuWsRlsRH2PXR2bM+U0ycX6hmNs0X51dCO6cnQnD5G9VyGSYHjWsRlmQppJRUg02RwP6V6nyVkJalVOdrAy5PNJlnwgQbmmRnuuUmVvUQbKjO1xG8piW6QulKX+pahCXixnc8JJocLJU+muKjI1ie6v5VUa70jWD43rUIOwTD+Uq1Ms9SwpV5BltAHrgWYUmM85VmsBG6Ml9STubJVvoIV+YZ6wlX+qIWknmqlb7xAPOV6rHCDGF+IBpsVArJQe1ahR3ZHhtViFo+1102J5oTdjbtTSRDpS43cd6NFDeBUanF0zwUyUwr3FdO0fLV0si3p5iYyXsbIsW2g+HeAHoh2H2e8IfpiYkX7NG+enEtZjXZQzy9+rx8iKcXcEL+ZHpaXp/+bNomdnwvWhMoO6P+nexMxHEURfEHO5GryQSa4U2vj4L5mnTv/v6V4NkxEAad6fq3W2Yjef12vfCXFf4LN/NEGV/NnYWLzSDFGWud3eU8AB/MTs9GvGLyYD4V6wNOg/MmlZWKPufz+iEwx6r6yOGbuavDk9WDYNd9/9PdPiI/y699x6d0zvDRufH+r3XLrMAbA10oWFzVJYxwvI7ZB7RH8pGSDVibXyL+ytYPcLduZix4zNhEbrxaCKYeTwNaqevcu9XLrCp1f9S8LBfLWqe2Xamjp5UVJIP1SvPw8wrDodOcQfvp+XrVpo07gulCE7/IKitCcNWOd7k+YlgZ67MDPyk27nCwU1ioSpZ64P2Wpp+1tZc6k9DLa5sttzLX2K1Bp8la1Dsscgv9FjZstYsxsrR3zxQ62vGajasznIkfK33j4UetU+FvOW2XXc+g8oC1jiyXgRB4aQHePIsH47ovx/pY357Fv9F+EuB9PMFyWO+67UyPWvEMqjpPPMGrxxWmNhXLpyU/eRHws1Lq2gkkBVGd8OkMH2J0w/NW2rFI1snvYhkEmniv/Ubs+Wpq9DnMRvU80oeKstvwcDHozYK+XD1OlblZd2X6ja8kRzvXAqv89wkzHjfs0SxAfBKgrbSL95UxG77p9aYfr1y/POxS4+ZjAGt3v1XJHC1/1JbXudgPy5tQ8RuW77fqBvj2eXNxull8/ob5YJ78o8y/p1l8XjT66yUDn4ffX27WDYBSQ3hegTP2Fi3NQsZW1a1dJT7VC7PC/5qA3wJIMLEisd9Ku16UugAMHQe5EszEedPpBN8iFaxB19xwvgiVBxhjgo5vt8SCbdCzD+r+FVb53RvngfXie8IMpg4weLth/UrH5KkwT1B6I9taBmaB3XXofcYW8ThtnNuwJascZD7KRieCB2mbB4pldSgbOeazqaFs5/EIBjaMiVOLG39IpN653hU3Jp//aic9GAbfTVHPy9H8Vv4t5qfB9hvvpADsOFi4vG0p9fhfG1/zRwoIzT7p+6QcfmUxDIYSR9t/pulIRzalIvYrZ1E4RKR02YPkP33weDwej8fj8Xg8Ho/H4/H83/gLVmo2sTCJqbYAAAAASUVORK5CYII=" alt="Scooter Logo" width="150" height="150">
 
-        <section>
-            <h2>About Our Company</h2>
-            <p>At SwiftRide Scooters, we provide fast, clean, and eco‑friendly transportation across the city. Our scooters are designed for reliability and ease of use, helping over 50,000 riders every month reach their destinations faster. Founded in 2024, we are committed to reducing traffic congestion and lowering carbon emissions one ride at a time.</p>
-        </section>
+    <!-- About Section -->
+    <section>
+        <h2>About Our Company</h2>
+        <p>At SwiftRide Scooters, we provide fast, clean, and eco-friendly transportation across the city. Our scooters are designed for reliability and ease of use, helping over 50,000 riders every month reach their destinations faster. Founded in 2024, we are committed to reducing traffic congestion and lowering carbon emissions one ride at a time.</p>
+    </section>
 
-        <section>
-            <h2>Statistics</h2>
-            <ul>
-                <li>Active scooters: <strong>420</strong></li>
-                <li>Daily rides: <strong>3,200+</strong></li>
-                <li>Average ride time: <strong>11 minutes</strong></li>
-                <li>Carbon emissions reduced in 2025: <strong>187 tons</strong></li>
-            </ul>
-        </section>
+    <!-- Statistics -->
+    <section>
+        <h2>Statistics</h2>
+        <ul>
+            <li>Active scooters: <strong>420</strong></li>
+            <li>Daily rides: <strong>3,200+</strong></li>
+            <li>Average ride time: <strong>11 minutes</strong></li>
+            <li>Carbon emissions reduced in 2025: <strong>187 tons</strong></li>
+        </ul>
+    </section>
 
-        <h2>Find Our Scooters</h2>
+    <!-- Monthly Sales Table -->
+    <table>
+      <caption>Monthly Sales Report</caption>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Product A</th>
+          <th>Product B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>150</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>180</td>
+          <td>220</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>330</td>
+          <td>420</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Map at the bottom -->
+    <h2>Find Our Scooters</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2180800000003!2d144.9630576153162!3d-37.81410747975199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11c97d%3A0x6d11f5d6f27b9d7e!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1678901234567!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </body>
-
 </html>
+
 
 
 
