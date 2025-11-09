@@ -1,7 +1,13 @@
+homepage: 
 - title
 - links to other page
+- about the company: make up something about the scooters
+- give some made up statistics about the scooters
+- images / logo
+
+subpage: 
 - map
 - user reports (link to a google form if a scooter is broken)
 - statistics (number of scooters being used / available)
 - time estimates for nearest scooters (if not available now, when is the next time one is available)
-- 
+- images / logo
