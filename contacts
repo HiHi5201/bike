@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Escooter Book</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <nav>
+        <div class="nav-container">
+            <a href="Homepage.html" class="logo">
+               <img src="C:\Users\eitha\Downloads\Escooterbook\pngtree-electric-scooter-logo-template-png-image_6264509.png" alt="Logo" style="width: 30px; height: 30px; transform: translateY(7px);">
+               EScooterBook</a>
+            <ul class="nav-menu">
+                <li><a href="Homepage.html" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+      <h1 class="new">Questions? Contact Us Below!!</h1>
+    
+    <div>
+         <div class = "what">
+          <ul>
+            <li>Helpful Person: <a target="_blank" href="https://www.google.com/teapot">phelper@gmail.com</a></li>
+            <li>Amazing Person: <a target="_blank" href="https://www.google.com/teapot">aperson@gmail.com</a></li>
+            <li>Cool Person: <a target="_blank" href="https://www.google.com/teapot">chelper@gmail.com</a></li>
+            <li>Great Person: <a target="_blank" href="https://www.google.com/teapot">ghelper@gmail.com</a></li>
+          </ul>
+        </div>
+    </div>
+    
+  </body>
+</html>
