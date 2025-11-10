@@ -1,0 +1,19 @@
+.new {
+  font-size: 60px;
+  background: white;
+    color: #8b0000;
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+  
+}
+
+.what {
+    background: white;
+    color: #8b0000;
+    font-size: 25px;
+    min-height: 10px;
+    display: flex;
+    text-align: left;
+}
